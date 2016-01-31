@@ -102,6 +102,10 @@
 </head>
 <body>
 
+<div id="header-bar"></div>
+<div id="title-bar">
+    <h1>Steven Avery Trial Transcripts and Documents</h1>
+</div>
 <div class="navbar {% if BOOTSTRAP_NAVBAR_INVERSE %}navbar-inverse{% else %}navbar-default{% endif %} navbar-fixed-top" role="navigation">
 	<div class="container{% if BOOTSTRAP_FLUID %}-fluid{% endif %}">
         <div class="navbar-header">
@@ -113,7 +117,6 @@
             </button>
             <a href="{{ SITEURL }}/" class="navbar-brand">
                 {% if SITELOGO %}<img src="{{ SITEURL }}/{{ SITELOGO }}" width="{{ SITELOGO_SIZE }}"/> {% endif %}
-                {% if not HIDE_SITENAME %}{{ SITENAME }}{% endif %}
             </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">

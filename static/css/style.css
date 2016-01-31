@@ -212,6 +212,16 @@ figure.floatcenter, .align-center {
     margin-left: 4px;
 }
 
+#header-bar {
+    height: 50px;
+    width: 100%;
+    background-color: #2C3E50;
+}
+
+#title-bar {
+     color: #1C699C;
+ }
+
 /* Solutions for mobile and small screens  */
 @media (max-width: 650px) {
     #banner h1{
