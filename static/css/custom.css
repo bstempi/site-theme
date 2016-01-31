@@ -1,0 +1,13 @@
+body {
+    padding-top: 50px;
+}
+
+#header-bar {
+    height: 50px;
+    width: 100%;
+    background-color: #2C3E50;
+}
+
+#title-bar {
+    color: #1C699C;
+}

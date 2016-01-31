@@ -103,9 +103,6 @@
 <body>
 
 <div id="header-bar"></div>
-<div id="title-bar">
-    <h1>Steven Avery Trial Transcripts and Documents</h1>
-</div>
 <div class="navbar {% if BOOTSTRAP_NAVBAR_INVERSE %}navbar-inverse{% else %}navbar-default{% endif %} navbar-fixed-top" role="navigation">
 	<div class="container{% if BOOTSTRAP_FLUID %}-fluid{% endif %}">
         <div class="navbar-header">
@@ -161,6 +158,11 @@
 {% endif %}
 <!-- End Banner -->
 <div class="container{% if BOOTSTRAP_FLUID %}-fluid{% endif %}">
+    <div class="row">
+        <div id="title-bar" class="col-sm-12 ">
+            <h1>Steven Avery Trial Transcripts and Documents</h1>
+        </div>
+    </div>
     <div class="row">
         {% if not HIDE_SIDEBAR or ABOUT_ME %}
         <div class="col-sm-9">
